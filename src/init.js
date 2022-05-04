@@ -1,5 +1,9 @@
 
 const home = () => {
+    const home = document.querySelector(".home")
+    if (home) {
+        home.remove()
+    }
     const dom = document.getElementById("content")
     const content = document.createElement("div")
     const heading = document.createElement("h1")
