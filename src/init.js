@@ -17,6 +17,7 @@ const home = () => {
     const Thursday = document.createElement("p")
     const Friday = document.createElement("p")
     const Saturday = document.createElement("p")
+    div.classList.add("hometxt")
     content.classList.add("home")
     Sunday.textContent = "Sunday: 8am - 8pm"
     Monday.textContent = "Monday: 6am - 6pm"

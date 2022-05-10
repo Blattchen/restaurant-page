@@ -48,7 +48,7 @@ h1 {
 
 .home {
     background-color: rgba(0, 0, 0, 0.723);
-    max-width: 50vw;
+    width: 50vw;
     color: white;
     padding: 2rem 1rem;
     border-radius: .5rem;
@@ -57,7 +57,18 @@ h1 {
     gap: 2rem;
 }
 
-.home>div:last-child {
+.hometxt {
     font-size: 1.2rem;
     color: bisque;
+}
+
+div>img {
+    width: 150px;
+    height: auto;
+}
+
+.meals {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
